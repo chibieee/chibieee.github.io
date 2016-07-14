@@ -24,13 +24,6 @@ $(document).ready(function() {
 
         })
         .setClassToggle(this, 'fade-in')
-        .addIndicators({
-            name: 'fade scene',
-            colorTrigger: 'black',
-            indent: 200,
-            colorStart: '#75C695',
-            colorEnd: 'pink'
-        })
         .addTo(controller);
     });
     
