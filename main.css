@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    padding: 0;
+}
+
+#intro {
+    /*background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 51%, rgba(188,224,238,1) 100%);*/
+    padding: 0;
+    background: linear-gradient(to left, #4CA1AF , #C4E0E5);
+    text-align: center;
+}
+
+#intro > h1 {
+    top: 20%;
+    position: relative;
+}
+
+#intro > .row {
+    top: 40%;
+    position: relative;
+}
+
+#about > p {
+    margin: 80px;
+}
+
+#about, #social {
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+}
+
+.btn-lg {
+    margin: 10px;
+}
+#main1 h2 {
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.row.text-center {
+    padding-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row.text-center h3 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.panel {
+    padding: 0;
+}
+
+.panel-heading {
+    font-size: 24px;
+}
+
+.panel-body {
+    font-size: 20px;
+}
+
+#main1 {
+    position: relative;
+    background-color: white;
+    opacity: 1;
+    z-index: 2;
+}
+
+#main2 {
+    position: relative;
+    background-color: white;
+    opacity: 1;
+    z-index: 2;
+}
+
+.project {
+    text-align: center;
+    padding: 200px 0;
+    border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    transition: all 1s ease-out;
+    background-color: white;
+}
+
+div > img {
+    vertical-align: middle;
+    width: 210px;
+    height: 180px;
+}
+
+.project p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #294D67;
+    font-size: 18px;
+}
+
+.project.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.footer-container {
+    position: relative;
+    opacity: 1;
+    background-color: #2e3942;
+    z-index: 3;
+}
+
+footer > h3 {
+    color: white;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 767px) {
+    #intro {
+        height: 100vh;
+        position: relative;
+    }
+}
