@@ -4,129 +4,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Gregory Garzon's Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="container-fluid" id="intro">
-        <h1>Gregory Garzon's Portfolio Website</h1>
-    <!-- Introduction/about/social buttons-->
-        <div class="row">
-            <div class="container col-sm-12 col-md-6" id="about">
-                <h1>About Me</h1>
-                <p>I'm a Front End web developer from the Washington, DC Area. I've been using computers since a young age, and love problem solving. I currently want to advance my knowledge in current skills before advancing onto different languages/frameworks. As time progresses, i would like to eventually learn Back End development too.</p>
-            
-            
-            </div>
-            <div class="container col-sm-12 col-md-6" id="social">
-                <a href="https://github.com/chibieee" target="_blank"><button class="btn btn-lg"><i class="fa fa-github"></i>Github</button></a>
-                
-                <a href="https://www.linkedin.com/in/gregory-garzon-b4b879121" target="_blank"><button class="btn btn-lg"><i class="fa fa-linkedin"></i>Linkedin</button></a>
-                
-                <a href="https://codepen.io/chibieee/" target="_blank"><button class="btn btn-lg"><i class="fa fa-codepen"></i>Codepen</button></a>
-                
-                <a href="http://www.freecodecamp.com/chibieee" target="_blank"><button class="btn btn-lg"><i class="fa fa-fire"></i>FreeCodeCamp</button></a>
-                
-            </div>
+    <nav>
+        <div class="nav__left">GG</div>
+        <div class="nav__right">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech">Technologies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="intro">
+        <div id="about" class="row">
+            <h1>Gregory Garzon's Portfolio Website</h1>
+            <h6>
+                I'm Web developer from the Washington, DC Area. I've been using computers since a young age, and love problem solving.
+                Currently I'm working for a Creative Agency building various websites using Wordpress, PHP, CSS, Javascript.
+                In my spare time i like to workout, watch tv shows, watch my favorite streamers on twitch, and play video games.
+            </h6>
         </div>
     </div>
     
-    <div id="main1">
+    <div id="tech">
     <!-- Programming languages/frameworks-->
-    <!-- learned from -->
-        <h2 class="text-center">Technologies I'm currently Using</h2>
-        <div class="row text-center">
-            <h3>Comfortable With</h3>
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">HTML</div>
-                <div class="panel-body">HTML5</div>
+        <div class="tech__container row flex__row">
+            <div class="tech__skillz"> 
+                <h2>Technologies/Languages</h2>       
+                <div class="tech__row flex__row">
+                    <div class="tech-btn">HTML</div>
+                    <div class="tech-btn">CSS</div>
+                    <div class="tech-btn">Javascript</div>
+                    <div class="tech-btn">PHP</div>
+                    <div class="tech-btn">mySQL</div>
+                    <div class="tech-btn">NodeJS</div>
+                    <div class="tech-btn">React</div>
+                    <div class="tech-btn">Redux</div>
+                </div>
             </div>
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">CSS</div>
-                <div class="panel-body">CSS3</div>
+            <div class="tech__playground">
+                <h2>Playing With</h2>
+                <div class="tech__row flex__row">
+                    <div class="tech-btn play">d3js</div>
+                    <div class="tech-btn play">threejs</div>
+                    <div class="tech-btn play">greensock</div>
+                </div>
             </div>
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Bootstrap</div>
-                <div class="panel-body">Bootstrap 4</div>
-            </div>
-        
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">JavaScript</div>
-                <div class="panel-body">jQuery / AJAX</div>
-            </div>
-            
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Server Side</div>
-                <div class="panel-body">NodeJS / ExpressJS</div>
-            </div>
-            
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Database</div>
-                <div class="panel-body">MongoDB</div>
-            </div>
-            
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Version Control</div>
-                <div class="panel-body">Git</div>
-            </div>
-            
         </div>
-        
-        <div class="row text-center">
-            <h3>Currently Learning Languages/Frameworks</h3>
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Javascript Framework</div>
-                <div class="panel-body">Angular 1</div>
-            </div>
-            
-            <div class="panel panel-primary col-sm-12 col-md-6">
-                <div class="panel-heading">Javascript Framework</div>
-                <div class="panel-body">React + Redux</div>
-            </div>
-            
-        </div>
-        
     </div>
     
-    <div id="main2">
-    <!-- Codepen Projects -->
-        <div id="project01" class="project">
-            <img src="files/images/Twitch.png" alt="Twitch API">
-            <h2><a href="https://codepen.io/chibieee/pen/oLbJYg" target="_blank">Twitch API Project</a></h2>
-            <p class="info">FreeCodeCamp's Twitch API Project</p>
-        </div>
+    <div class="projects__container row">
+        <h2>Projects</h2>
+        <div id="projects">
+        <!-- Codepen Projects -->
+            <div id="project01" class="project__card">
+                <a href="https://codepen.io/chibieee/pen/oLbJYg" target="_blank">    
+                    <img src="files/images/Twitch.png" alt="Twitch API">
+                    <div class="project__card-content">
+                        <h4>Twitch API Project</h4>
+                        <p class="info">FreeCodeCamp's Twitch API Project</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div id="project02" class="project__card">
+                <a href="https://codepen.io/chibieee/pen/RRPwXZ" target="_blank">
+                    <img src="files/images/Wikipedia%20Viewer.png" alt="Wikipedia Viewer">
+                    <div class="project__card-content">
+                        <h4>Wikipedia API Project</h4>
+                        <p class="info">FreeCodeCamp's Wikipedia Viewer Project using Wikipedia's API</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div id="project03" class="project__card">
+                <a href="https://codepen.io/chibieee/pen/pbgWNz" target="_blank">
+                    <img src="files/images/JS%20calculator.png" alt="JS Calculator">
+                    <div class="project__card-content">
+                        <h4>Javascript Calculator Project</h4>
+                        <p class="info">FreeCodeCamp's Javascript Calculator Project using Javascript and jQuery</p>
+                    </div>
+                </a>
+            </div>
         
-        <div id="project02" class="project">
-            <img src="files/images/Wikipedia%20Viewer.png" alt="Wikipedia Viewer">
-            <h2><a href="https://codepen.io/chibieee/pen/RRPwXZ" target="_blank">Wikipedia API Project</a></h2>
-            <p class="info">FreeCodeCamp's Wikipedia Viewer Project using Wikipedia's API</p>
         </div>
-        
-        <div id="project03" class="project">
-            <img src="files/images/JS%20calculator.png" alt="JS Calculator">
-            <h2><a href="https://codepen.io/chibieee/pen/pbgWNz" target="_blank">Javascript Calculator Project</a></h2>
-            <p class="info">FreeCodeCamp's Javascript Calculator Project using Javascript and jQuery</p>
-        </div>
-    
     </div>
     
-    <div class="footer-container text-center">
-        <footer>
+    <footer id="contact" class="row">
+        <div class="contact__left">
             <h3>Email: gregneo21@gmail.com</h3>
-            <button class="btn btn-lg"><a href="files/Gregory%20Garzon's%20R%C3%A9sum%C3%A9.pdf" download>Resume Download</a></button>
-        </footer>
-    </div>
-    
-    
-    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+            <a href="\files\Gregory Garzon's Resume.pdf" download class="resume__dl">Resume Download</a>
+        </div>
+        <div class="contact__right">
+            <a href="https://github.com/chibieee" target="_blank" class="social__btn"><i class="fa fa-github"></i>Github</a>
+            
+            <a href="https://www.linkedin.com/in/gregory-garzon-b4b879121" target="_blank" class="social__btn"><i class="fa fa-linkedin"></i>Linkedin</a>
+            
+            <a href="https://codepen.io/chibieee/" target="_blank" class="social__btn"><i class="fa fa-codepen"></i>Codepen</a>
+            
+            <a href="http://www.freecodecamp.com/chibieee" target="_blank" class="social__btn"><i class="fa fa-fire"></i>FreeCodeCamp</a>
+        </div>
+    </footer>
     
     <script src="main.js"></script>
     

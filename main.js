@@ -1,34 +1,11 @@
-$(document).ready(function() {
-   
-    var controller = new ScrollMagic.Controller();
-    
-    //pin the intro
-    var pinIntroScene = new ScrollMagic.Scene({
-        triggerElement: '#intro',
-        triggerHook: 0,
-        duration: '20%'
-    })
-    .setPin('#intro', {pushFollowers: false})
-    .addTo(controller);
-    
-    
-    //loop through each project
-    $('.project').each(function() {
-        
-        // Build a scene
-        var ourScene = new ScrollMagic.Scene({
-            triggerElement: this,
-            triggerHook: 0.6,
-            //reverse: false  //animation happens once
-
-
-        })
-        .setClassToggle(this, 'fade-in')
-        .addTo(controller);
+document.addEventListener('DOMContentLoaded', function() {
+    var navBar = document.getElementsByTagName('nav');
+    console.log(navBar);
+    window.addEventListener('scroll', function() {
+        if(window.pageYOffset > 0) {
+            navBar[0].classList.add('scrolled');
+        } else {
+            navBar[0].classList.remove('scrolled');
+        }
     });
-    
-    
-    
-    
-    
 });
