@@ -120,7 +120,8 @@ nav ul li {
     color: #222;
     border-radius: 4px;
     margin-bottom: 2em;
-    width: 31%;
+    width: 30%;
+    margin-right: 3.3%;
     transition: all .2s linear;
 }
 .project__card:hover {
@@ -128,6 +129,9 @@ nav ul li {
 }
 .project__card img {
     border-radius: 4px;
+}
+.project__card h4 {
+    margin-bottom: 16px;
 }
 .project__card h4, .project__card p {
     color: #222;
