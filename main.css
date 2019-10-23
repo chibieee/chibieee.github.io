@@ -113,7 +113,6 @@ nav ul li {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .project__card {
     background-color: #fff;
