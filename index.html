@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Gregory Garzon's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css?family=Oswald"
+        rel="stylesheet"
+    />
+    <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
     <nav>
@@ -23,18 +29,22 @@
         <div id="about" class="row">
             <h1>Gregory Garzon's Portfolio Website</h1>
             <h6>
-                I'm Web developer from the Washington, DC Area. I've been using computers since a young age, and love problem solving.
-                Currently I'm working for a Creative Agency building various websites using Wordpress, PHP, CSS, Javascript and occasionally things with React.
-                In my spare time i like to workout, watch tv shows, watch my favorite streamers on twitch, build random things with react, and play video games.
+                I'm Web developer from the Washington, DC Area. I've been using
+                computers since a young age, and love problem solving. Currently
+                I'm working for a Creative Agency building various websites
+                using Wordpress, PHP, CSS, Javascript and occasionally things
+                with React. In my spare time i like to workout, watch tv shows,
+                watch my favorite streamers on twitch, build random things with
+                react, and play video games.
             </h6>
         </div>
     </div>
-    
+
     <div id="tech">
-    <!-- Programming languages/frameworks-->
+        <!-- Programming languages/frameworks-->
         <div class="tech__container row flex__row">
-            <div class="tech__skillz"> 
-                <h2>Technologies/Languages</h2>       
+            <div class="tech__skillz">
+                <h2>Technologies/Languages</h2>
                 <div class="tech__row flex__row">
                     <div class="tech-btn">HTML</div>
                     <div class="tech-btn">CSS</div>
@@ -57,80 +67,101 @@
             </div>
         </div>
     </div>
-    
+
     <div class="projects__container row">
         <h2>Projects</h2>
         <div id="projects">
-        <!-- Projects -->
+            <!-- Projects -->
+            <div class="project__card">
+                <a href="https://github.com/chibieee/streamy" target="_blank">
+                    <img src="files/images/React App.png" alt="Streamy" />
+                    <div class="project__card-content">
+                        <h4>Streamy</h4>
+                        <p class="info">
+                            Streaming app built with React/Redux, RTMP server,
+                            and JSON Server (local). You start streaming with
+                            OBS, enter a valid stream key and you're on your
+                            way.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
             <div class="project__card">
                 <a href="https://gg-seasons-app.herokuapp.com/" target="_blank">
-                    <img src="files/images/Greg s Seasons.png" alt="JS Calculator">
+                    <img
+                        src="files/images/Greg s Seasons.png"
+                        alt="JS Calculator"
+                    />
                     <div class="project__card-content">
                         <h4>React Seasons App</h4>
-                        <p class="info">Small React app that detects your latitude and longitude using geolocation, and gets your City from Google's Geocode API</p>
+                        <p class="info">
+                            Small React app that detects your latitude and
+                            longitude using geolocation, and gets your City from
+                            Google's Geocode API
+                        </p>
                     </div>
                 </a>
             </div>
 
             <div class="project__card">
-                <a href="https://codepen.io/chibieee/full/PoYRVQL" target="_blank">
-                    <img src="files/images/Blackjack.png" alt="JS Calculator">
+                <a
+                    href="https://codepen.io/chibieee/full/PoYRVQL"
+                    target="_blank"
+                >
+                    <img src="files/images/Blackjack.png" alt="JS Calculator" />
                     <div class="project__card-content">
                         <h4>Blackjack</h4>
-                        <p class="info">Built the classic blackjack game using raw html/css and vanilla javascript</p>
+                        <p class="info">
+                            Built the classic blackjack game using raw html/css
+                            and vanilla javascript
+                        </p>
                     </div>
                 </a>
             </div>
-
-            <div class="project__card">
-                <a href="https://codepen.io/chibieee/pen/oLbJYg" target="_blank">    
-                    <img src="files/images/Twitch.png" alt="Twitch API">
-                    <div class="project__card-content">
-                        <h4>Twitch API Project</h4>
-                        <p class="info">FreeCodeCamp's Twitch API Project</p>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="project__card">
-                <a href="https://codepen.io/chibieee/pen/RRPwXZ" target="_blank">
-                    <img src="files/images/Wikipedia%20Viewer.png" alt="Wikipedia Viewer">
-                    <div class="project__card-content">
-                        <h4>Wikipedia API Project</h4>
-                        <p class="info">FreeCodeCamp's Wikipedia Viewer Project using Wikipedia's API</p>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="project__card">
-                <a href="https://codepen.io/chibieee/pen/pbgWNz" target="_blank">
-                    <img src="files/images/JS%20calculator.png" alt="JS Calculator">
-                    <div class="project__card-content">
-                        <h4>Javascript Calculator Project</h4>
-                        <p class="info">FreeCodeCamp's Javascript Calculator Project using Javascript and jQuery</p>
-                    </div>
-                </a>
-            </div>
-        
         </div>
     </div>
-    
+
     <footer id="contact" class="row">
         <div class="contact__left">
             <h3>Email: gregneo21@gmail.com</h3>
-            <a href="\files\Gregory Garzon's Resume.pdf" download class="resume__dl">Download Resumé</a>
+            <a
+                href="\files\Gregory Garzon's Resume.pdf"
+                download
+                class="resume__dl"
+                >Download Resumé</a
+            >
         </div>
         <div class="contact__right">
-            <a href="https://github.com/chibieee" target="_blank" class="social__btn"><i class="fa fa-github"></i>Github</a>
-            
-            <a href="https://www.linkedin.com/in/gregory-garzon-b4b879121" target="_blank" class="social__btn"><i class="fa fa-linkedin"></i>Linkedin</a>
-            
-            <a href="https://codepen.io/chibieee/" target="_blank" class="social__btn"><i class="fa fa-codepen"></i>Codepen</a>
-            
-            <a href="http://www.freecodecamp.com/chibieee" target="_blank" class="social__btn"><i class="fa fa-fire"></i>FreeCodeCamp</a>
+            <a
+                href="https://github.com/chibieee"
+                target="_blank"
+                class="social__btn"
+                ><i class="fa fa-github"></i>Github</a
+            >
+
+            <a
+                href="https://www.linkedin.com/in/gregory-garzon-b4b879121"
+                target="_blank"
+                class="social__btn"
+                ><i class="fa fa-linkedin"></i>Linkedin</a
+            >
+
+            <a
+                href="https://codepen.io/chibieee/"
+                target="_blank"
+                class="social__btn"
+                ><i class="fa fa-codepen"></i>Codepen</a
+            >
+
+            <a
+                href="http://www.freecodecamp.com/chibieee"
+                target="_blank"
+                class="social__btn"
+                ><i class="fa fa-fire"></i>FreeCodeCamp</a
+            >
         </div>
     </footer>
-    
+
     <script src="main.js"></script>
-    
 </body>
