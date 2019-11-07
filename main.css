@@ -125,7 +125,7 @@ nav ul li {
 .project__card:hover {
     box-shadow: 0px 2px 22px #f0b64b;
 }
-.project__card:hover a {
+.project__card a {
     text-decoration: none !important;
 }
 .project__card img {
