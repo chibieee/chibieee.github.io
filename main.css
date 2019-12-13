@@ -1,4 +1,6 @@
 * {
+    min-height: 0;
+    min-width: 0;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -87,13 +89,15 @@ nav ul li {
 }
 #tech h2 {
     color: #fff;
+    text-align: center;
 }
 .tech__container {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 5% 0;
 }
-.tech__skillz {
+.tech__skillz,
+.tech__playground {
     margin-bottom: 5em;
 }
 .tech-btn {
@@ -109,9 +113,12 @@ nav ul li {
     color: #222;
 }
 /* Pro Work Section */
+#work {
+    width: 100%;
+}
 .pro-work-slider {
     width: 100%;
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
 .pro-work-slide {
     background-color: #fff;
@@ -135,23 +142,33 @@ nav ul li {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 36px;
 }
 .pro-work-slider .fa-chevron-right {
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 36px;
 }
 .slide-img-container {
     margin: 12px 0;
     max-width: 25%;
 }
+/* Slick */
+.slick-track {
+    display: flex !important;
+}
 .slick-dots li button:before {
     font-size: 16px !important;
 }
+
 /* Projects Section */
 .projects__container {
     padding: 5% 0;
+}
+.projects__container h2 {
+    text-align: center;
 }
 #projects {
     display: flex;
@@ -206,7 +223,7 @@ nav ul li {
     padding: 6px 18px;
     transition: all 0.2s linear;
 }
-.social__btn .fa {
+.social__btn .fab {
     margin-right: 0.5em;
 }
 .social__btn:hover {
