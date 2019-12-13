@@ -120,9 +120,12 @@ nav ul li {
     display: flex !important;
     flex-direction: column;
     align-items: center;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
 }
 .slide-img-container {
     margin: 12px 0;
+    max-width: 25%;
 }
 /* Projects Section */
 .projects__container {
@@ -211,6 +214,13 @@ nav ul li {
         margin-bottom: 2em;
         margin-right: 0;
         width: 100%;
+    }
+    /* pro work */
+    .pro-work-slide {
+        width: 80%;
+    }
+    .slide-img-container {
+        max-width: unset;
     }
     #contact {
         flex-direction: column;
