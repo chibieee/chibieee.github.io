@@ -109,12 +109,16 @@ nav ul li {
     color: #222;
 }
 /* Pro Work Section */
+.pro-work-slider {
+    width: 100%;
+    max-width: 1400px;
+}
 .pro-work-slide {
     background-color: #fff;
     color: #222;
     padding: 24px;
     margin-bottom: 12px;
-    width: 50%;
+    width: 50% !important;
     margin: auto;
     margin-bottom: 12px;
     display: flex !important;
@@ -123,9 +127,27 @@ nav ul li {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
 }
+.pro-work-slide .tech-btn {
+    margin: 0;
+}
+.pro-work-slider .fa-chevron-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pro-work-slider .fa-chevron-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .slide-img-container {
     margin: 12px 0;
     max-width: 25%;
+}
+.slick-dots li button:before {
+    font-size: 16px !important;
 }
 /* Projects Section */
 .projects__container {
@@ -217,7 +239,7 @@ nav ul li {
     }
     /* pro work */
     .pro-work-slide {
-        width: 80%;
+        width: 80% !important;
     }
     .slide-img-container {
         max-width: unset;
