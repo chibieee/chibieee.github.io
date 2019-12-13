@@ -279,6 +279,13 @@ nav ul li {
     .slide-img-container {
         max-width: unset;
     }
+    .pro-work-slider .fa-chevron-left {
+        left: -18px;
+    }
+
+    .pro-work-slider .fa-chevron-right {
+        right: -18px;
+    }
     #contact {
         flex-direction: column;
         align-items: center;
