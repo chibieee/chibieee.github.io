@@ -134,6 +134,9 @@ nav ul li {
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
 }
+.pro-work-slide p {
+    margin: 5% 0;
+}
 .pro-work-slide .tech-btn {
     margin: 0;
 }
