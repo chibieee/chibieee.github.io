@@ -147,7 +147,7 @@ nav ul li {
 }
 .pro-work-slider .fa-chevron-left {
     position: absolute;
-    left: 0;
+    left: -20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 36px;
@@ -159,7 +159,7 @@ nav ul li {
 }
 .pro-work-slider .fa-chevron-right {
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 36px;
